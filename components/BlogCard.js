@@ -10,22 +10,23 @@ function BlogPost({ title, author, coverPhoto, datePublished, slug }) {
         <div className={styles.card}>
             <Link href={`/posts/${slug}`}>
                 <div className={styles.imgContainer}>
-                {coverPhoto && <Image layout="fill" src={coverPhoto.url} alt="" />}
+                    {coverPhoto && <Image layout="fill" src={coverPhoto.url} alt="" />}
                 </div>
             </Link>
             <div className={styles.text}>
                 <h2>{title}</h2>
                 исправь ошибку
                 <div className={styles.details}>
-                    <div className={styles.author}>
-                        
-                        {author && <h3>{author.name}</h3>}
-
-                    </div> <div className={styles.date}>
+                    {author && (
+                        <div className={styles.author}>
+                            <h3>{author.name}</h3>
+                        </div>
+                    )}
+                    <div className={styles.date}>
                         <h3>{moment(datePublished).format("MMMM d, YYYY")}</h3>
                     </div>
                 </div>
-                </div>
+            </div>
         </div>
     );
 }
