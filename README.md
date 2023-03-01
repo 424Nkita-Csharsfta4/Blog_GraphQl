@@ -1,26 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<a href="https://app.hygraph.com/">Shema GraphQL</a>
-
-Create Shema 
-![image](https://user-images.githubusercontent.com/103760832/222097076-194d6898-0568-400d-8d79-8df1a9a644cc.png)
-
-Click to Shema 
-![image](https://user-images.githubusercontent.com/103760832/222097188-118fcf44-c69e-4d72-9a15-2837bc8c5dd4.png)
-
-Add Shema module
-![image](https://user-images.githubusercontent.com/103760832/222097279-d54fe9d9-5398-407c-a97d-f359cfdeaf10.png)
-
-Repeat after me, this is what happened to me
-Author
-![image](https://user-images.githubusercontent.com/103760832/222097480-2456954c-b624-450b-b328-02bc1e01d075.png)
-
-Post
-![image](https://user-images.githubusercontent.com/103760832/222097620-743b8fa4-b549-41cc-bf02-9112f2924f2c.png)
-
-![image](https://user-images.githubusercontent.com/103760832/222097891-5d3a1b9b-1d96-4ef7-a2e0-832915061452.png)
-
-
 ## Getting Started
 
 First, run the development server:

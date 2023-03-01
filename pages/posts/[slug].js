@@ -16,9 +16,7 @@ const QUERY = gql`
       author {
         id
         name
-        avatar {
-          url
-        }
+    
       }
       content {
         html
